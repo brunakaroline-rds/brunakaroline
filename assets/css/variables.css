@@ -1,0 +1,83 @@
+/* CSS Custom Properties - Design System Variables */
+
+:root {
+  /* Colors */
+  --color-primary: #486844;      /* Verde escuro */
+  --color-primary-dark: #405438; /* Verde dos botões */
+  --color-card-green: #54784C;   /* Card em destaque */
+  --color-sage: #708460;         /* Faixa de contato */
+  --color-footer: #344430;       /* Rodapé */
+  --color-script: #3E5C3C;       /* Texto manuscrito */
+  --color-secondary: #F4A98B;    /* Coral/salmão */
+  --color-accent: #E8805C;       /* Rótulos das seções */
+  --color-peach: #FCC1A3;        /* Manchas decorativas */
+  --color-peach-light: #FCECD8;
+  --color-bg-hero: #FEF7ED;      /* Creme do hero */
+  --color-bg-light: #FEF9F5;     /* Creme claro */
+  --color-bg-medium: #FEF4EB;    /* Pêssego claro */
+  --color-bg-card: #FCF4E8;      /* Cards de formação */
+  --color-text-dark: #1F1B18;    /* Títulos */
+  --color-text-body: #3F3A35;    /* Texto corrido */
+  --color-text-light: #FFFFFF;   /* Texto sobre fundo escuro */
+  --color-white: #FFFFFF;
+
+  /* Typography */
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Quicksand', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-script: 'Satisfy', 'Brush Script MT', cursive;
+
+  --font-size-base: 16px;
+  --font-size-xs: 0.72rem;       /* 11.5px */
+  --font-size-sm: 0.84rem;       /* 13.5px */
+  --font-size-md: 1rem;          /* 16px */
+  --font-size-lg: 1.125rem;      /* 18px */
+  --font-size-xl: 1.5rem;        /* 24px */
+  --font-size-2xl: 2.2rem;       /* 35px */
+  --font-size-3xl: 3.75rem;      /* 60px */
+
+  --line-height-tight: 1.15;
+  --line-height-base: 1.5;
+  --line-height-relaxed: 1.7;
+
+  /* Spacing */
+  --spacing-xs: 0.5rem;    /* 8px */
+  --spacing-sm: 1rem;      /* 16px */
+  --spacing-md: 1.5rem;    /* 24px */
+  --spacing-lg: 2rem;      /* 32px */
+  --spacing-xl: 3rem;      /* 48px */
+  --spacing-2xl: 4rem;     /* 64px */
+  --spacing-3xl: 6rem;     /* 96px */
+
+  /* Layout */
+  --container-max-width: 1288px; /* 1240px de conteúdo + padding lateral */
+  --container-padding: 1.5rem;
+  --nav-height: 108px;
+
+  /* Breakpoints (para referência, usados em media queries) */
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+
+  /* Border radius */
+  --radius-sm: 8px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-pill: 999px;
+  --radius-full: 50%;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 10px rgba(120, 90, 60, 0.08);
+  --shadow-md: 0 6px 18px rgba(120, 90, 60, 0.10);
+  --shadow-lg: 0 10px 28px rgba(120, 90, 60, 0.16);
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 300ms ease;
+  --transition-slow: 500ms ease;
+
+  /* Z-index layers */
+  --z-nav: 1000;
+  --z-modal-backdrop: 1999;
+  --z-modal: 2000;
+}

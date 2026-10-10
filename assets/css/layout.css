@@ -1,0 +1,90 @@
+/* Layout - Grid e estrutura geral */
+
+body {
+  font-family: var(--font-sans);
+  font-size: var(--font-size-md);
+  font-weight: 500;
+  line-height: var(--line-height-base);
+  color: var(--color-text-body);
+  background-color: var(--color-bg-light);
+  overflow-x: hidden;
+}
+
+/* Container base */
+.container {
+  width: 100%;
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding: 0 var(--container-padding);
+}
+
+/* Section base */
+.section {
+  position: relative;
+}
+
+/* Scroll reveal animations */
+.section--hidden {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.section--visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.section--light {
+  background-color: var(--color-bg-light);
+}
+
+.section--medium {
+  background-color: var(--color-bg-medium);
+}
+
+.section--dark {
+  background-color: var(--color-primary);
+  color: var(--color-text-light);
+}
+
+/* Cabeçalho das seções: rótulo + título */
+.section__eyebrow {
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--color-accent);
+}
+
+.section__title {
+  font-size: var(--font-size-2xl);
+  line-height: var(--line-height-tight);
+  text-align: center;
+  color: var(--color-text-dark);
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+  line-height: var(--line-height-tight);
+  font-weight: 700;
+  color: var(--color-text-dark);
+}
+
+/* Links */
+a {
+  transition: opacity var(--transition-fast);
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--color-secondary);
+  outline-offset: 2px;
+}
