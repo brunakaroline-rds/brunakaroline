@@ -104,7 +104,7 @@ Os arquivos em `placeholders/` são SVGs leves que aparecem enquanto as imagens 
 ## Checklist de Imagens
 
 - [ ] hero/bruna-hero.jpg (800x800px, <500KB)
-- [ ] about/bruna-about.jpg (800x800px, <450KB)
+- [x] about/bruna-about.jpg (840x614px, recortada na proporção da moldura: 450x329)
 - [x] gallery/work-1.jpg a work-13.jpg (pinturas, <400KB cada)
 - [x] documents/cv.pdf (<2MB)
 

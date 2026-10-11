@@ -1,12 +1,12 @@
 // Main.js - Entry point e orquestrador da aplicação
 
 // Keep the ?v= in sync with index.html so browsers never mix old and new files
-import { Navigation } from './navigation.js?v=20261010c';
-import { GalleryModal } from './modal.js?v=20261010c';
-import { LazyLoader } from './lazy-load.js?v=20261010c';
-import { Carousel } from './carousel.js?v=20261010c';
-import { ExperienceDetails } from './experience.js?v=20261010c';
-import { DocumentViewer } from './document-viewer.js?v=20261010c';
+import { Navigation } from './navigation.js?v=20261011';
+import { GalleryModal } from './modal.js?v=20261011';
+import { LazyLoader } from './lazy-load.js?v=20261011';
+import { Carousel } from './carousel.js?v=20261011';
+import { ExperienceDetails } from './experience.js?v=20261011';
+import { DocumentViewer } from './document-viewer.js?v=20261011';
 
 class App {
   constructor() {
